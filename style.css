@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+div > h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+body{
+    background-image:linear-gradient(to bottom,#35FA7E 10% ,#229c4f );
+    background-attachment:fixed;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav > a:hover{
+    background-image:linear-gradient(to top, #229c4f 12%,#35FA7E);
+    color: rgba(17, 78, 2, 0.747);
+}
+
+main{
+    background-color: rgba(238, 238, 238, 0.945);
+    text-align: center;
+    box-shadow: 1px 5px 11px rgba(0, 0, 0, 0.63);
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main > h1{
+    font-family: idroid;
+    color: #146432;
+    text-align: left;
+}
+
+article > p > a{
+    background-color: #35fa7db0;
+    color: rgb(1, 34, 5);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article > h2{
+    background-image:linear-gradient(to right, #35FA7E, rgba(238, 238, 238, 0.945) 80%);
+    margin-left: 40px;
+    text-align: left;
+    font-family: idroid;
+}
+
+article >p > span{
+    font-weight: bold;
+    color: #118a3e;
+}
+
+div#video{
+    background-color: #146432;
+}
+
+div#extra{
+    background-color: #269e5680;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div#extra > h3{
+    background-color: #196b3a;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+}
+
+div#extra > ul{
+    display: inline-block;
+    text-align: left;
+}
+
+div#criador{
+    text-align: center;
+    background-color: #146432;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
