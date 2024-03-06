@@ -73,6 +73,13 @@ article >p > span{
 
 div#video{
     background-color: #146432;
+    text-align: center;
+    margin:0px 0px 30px 0px;
+    padding:30px;
+}
+
+div iframe{
+    width: 100%;
 }
 
 div#extra{
