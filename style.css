@@ -78,7 +78,7 @@ div#video{
     padding:30px;
 }
 
-div iframe{
+div > iframe{
     width: 100%;
 }
 
