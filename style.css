@@ -71,6 +71,12 @@ article >p > span{
     color: #118a3e;
 }
 
+article picture{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 div#video{
     background-color: #146432;
     text-align: center;
