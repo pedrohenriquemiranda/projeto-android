@@ -46,6 +46,10 @@ main{
     margin: auto;
 }
 
+main img{
+    width: 100%;
+}
+
 main > h1{
     font-family: idroid;
     color: #146432;
@@ -71,7 +75,7 @@ article >p > span{
     color: #118a3e;
 }
 
-div#foto{
+main  article div#foto{
     width: 100%;
     margin: 0px;
     padding: 0px;
