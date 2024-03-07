@@ -19,6 +19,7 @@ header{
     font-family:'Courier New', Courier, monospace;
     background-image: linear-gradient(to bottom, #1f9149,#08461e);
     background-attachment: fixed;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.733);
 }
 
 body{
