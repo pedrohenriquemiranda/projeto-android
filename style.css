@@ -16,7 +16,9 @@ h1{
 
 header{
     text-align: center;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom, #1f9149,#08461e);
+    background-attachment: fixed;
 }
 
 body{
